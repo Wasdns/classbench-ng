@@ -104,6 +104,8 @@ Generates OpenFlow rules following the properties from SEED that has to contain 
 
 The output consists of `attribute=value` pairs joined by `, `.
 
+Example: `./classbench generate of seeds/of1_seed --count=10`
+
 ## Known Issues
 - the number of generated rules is usually lower than in original ClassBench (i.e., ClassBench-ng generates higher number of redundant rules that are removed in the last phase)
 - ClassBench-ng Analyser does not correctly analyses source/destination port prefixes specified using a bit map in the ovs-ofctl format
